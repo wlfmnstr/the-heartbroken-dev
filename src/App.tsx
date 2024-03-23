@@ -62,9 +62,9 @@ function App() {
         {showForm && (
           <form
             className="mt-8 space-y-6"
-            // onSubmit={handleSubmit}
             data-netlify="true"
             method="POST"
+            name="contact"
           >
             <input type="hidden" name="form-name" value="contact" />
             <div className="rounded-md shadow-sm -space-y-px">
@@ -202,18 +202,15 @@ function App() {
                 <select
                   id="meetingTool"
                   name="meetingTool"
-                  value={meetingTool}
-                  onChange={(e) => setMeetingTool(e.target.value)}
                   className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 text-gray-100 bg-gray-700 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                 >
-                  {meetingToolOptions.map((option) => (
-                    <option key={option.value} value={option.value}>
-                      {option.label}
-                    </option>
-                  ))}
+                  <option value="google-meet">Google Meet</option>
+                  <option value="slack">Slack</option>
+                  <option value="zoom">Zoom</option>
+                  <option value="discord">Discord</option>
+                  <option value="other">Other (enter below)</option>
                 </select>
               </div>
-              {meetingTool === "other" && (
                 <div>
                   <label htmlFor="customMeetingTool" className="text-gray-100">
                     Custom Meeting Tool
@@ -222,15 +219,11 @@ function App() {
                     id="customMeetingTool"
                     name="customMeetingTool"
                     type="text"
-                    value={customMeetingTool}
-                    onChange={(e) => setCustomMeetingTool(e.target.value)}
                     autoComplete="off"
-                    required={meetingTool === "other"}
                     className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
-                    placeholder="Custom Meeting Tool"
+                    placeholder="Other Meeting Tool"
                   />
                 </div>
-              )}
             </div>
             <div>
               <button
