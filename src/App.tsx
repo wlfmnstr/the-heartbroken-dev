@@ -70,7 +70,7 @@ function App() {
                   type="text"
                   autoComplete="name"
                   required
-                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 rounded-t-md focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-black bg-white rounded-t-md focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                   placeholder="Name"
                 />
               </div>
@@ -84,7 +84,7 @@ function App() {
                   type="email"
                   autoComplete="email"
                   required
-                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 rounded-b-md focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-black bg-white rounded-b-md focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                   placeholder="Email address"
                 />
               </div>
@@ -98,7 +98,7 @@ function App() {
                   rows={3}
                   autoComplete="off"
                   required
-                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-black bg-white focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                   placeholder="Why do you want to learn how to code?"
                 />
               </div>
@@ -112,7 +112,7 @@ function App() {
                   rows={3}
                   autoComplete="off"
                   required
-                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-black bg-white focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                   placeholder="What would you do with the ability to build software?"
                 />
               </div>
@@ -126,7 +126,7 @@ function App() {
                   rows={3}
                   autoComplete="off"
                   required
-                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-black bg-white focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                   placeholder="Who are you that makes you a fit for this?"
                 />
               </div>
@@ -140,7 +140,7 @@ function App() {
                   type="text"
                   autoComplete="off"
                   required
-                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-black bg-white focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                   placeholder="Timezone"
                 />
               </div>
@@ -154,7 +154,7 @@ function App() {
                   type="text"
                   autoComplete="off"
                   required
-                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-black bg-white focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                   placeholder="Preferred time to meet"
                 />
               </div>
@@ -168,7 +168,7 @@ function App() {
                   type="text"
                   autoComplete="off"
                   required
-                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-black bg-white focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                   placeholder="Experience with building software"
                 />
               </div>
@@ -180,7 +180,7 @@ function App() {
                   id="notes"
                   name="notes"
                   rows={3}
-                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-black bg-white focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                   placeholder="Any other notes about how you'd ideally like this to be setup? Frequency of meetings, length of meetings, style of instruction, etc."
                 ></textarea>
               </div>
@@ -191,7 +191,7 @@ function App() {
                 <select
                   id="meetingTool"
                   name="meetingTool"
-                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 text-gray-100 bg-gray-700 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                  className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 text-black bg-white focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                 >
                   <option value="google-meet">Google Meet</option>
                   <option value="slack">Slack</option>
@@ -209,7 +209,7 @@ function App() {
                     name="customMeetingTool"
                     type="text"
                     autoComplete="off"
-                    className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-gray-100 focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
+                    className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-600 placeholder-gray-500 text-black bg-white focus:outline-none focus:ring-red-700 focus:border-red-700 focus:z-10 sm:text-sm"
                     placeholder="Other Meeting Tool"
                   />
                 </div>
