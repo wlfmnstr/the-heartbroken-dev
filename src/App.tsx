@@ -3,17 +3,6 @@ import { useState } from "react";
 
 function App() {
   const [showForm, setShowForm] = useState(false);
-  const [meetingTool, setMeetingTool] = useState("google-meet");
-  const [customMeetingTool, setCustomMeetingTool] = useState("");
-
-  // Define your meeting tool options here
-  const meetingToolOptions = [
-    { label: "Slack", value: "slack" },
-    { label: "Google Meet", value: "google-meet" },
-    { label: "Zoom", value: "zoom" },
-    { label: "Discord", value: "discord" },
-    { label: "Other", value: "other" },
-  ];
 
   // const handleSubmit = (e: { preventDefault: () => void }) => {
   //   e.preventDefault();
