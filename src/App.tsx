@@ -15,10 +15,10 @@ function App() {
     { label: "Other", value: "other" },
   ];
 
-  const handleSubmit = (e: { preventDefault: () => void }) => {
-    e.preventDefault();
-    // Handle form submission logic here
-  };
+  // const handleSubmit = (e: { preventDefault: () => void }) => {
+  //   e.preventDefault();
+  //   // Handle form submission logic here if more than just netlify form handling...
+  // };
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-gray-700 to-gray-900 space-y-2 flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
@@ -62,8 +62,9 @@ function App() {
         {showForm && (
           <form
             className="mt-8 space-y-6"
-            onSubmit={handleSubmit}
+            // onSubmit={handleSubmit}
             data-netlify="true"
+            method="POST"
           >
             <input type="hidden" name="form-name" value="contact" />
             <div className="rounded-md shadow-sm -space-y-px">
