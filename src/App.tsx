@@ -74,6 +74,9 @@ function App() {
                   placeholder="Name"
                 />
               </div>
+              <div hidden>
+                <input type="text" name="full-name" />
+              </div>
               <div>
                 <label htmlFor="email" className="sr-only">
                   Email address
